@@ -1,0 +1,45 @@
+{
+  "name": "fastener",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://vsakariya24-netizen.github.io/fastener/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@hello-pangea/dnd": "^18.0.1",
+    "@motionone/utils": "^10.18.0",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.2",
+    "@supabase/supabase-js": "^2.98.0",
+    "@vercel/analytics": "^1.6.1",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "firebase": "^12.6.0",
+    "framer-motion": "^12.26.2",
+    "lucide-react": "^0.554.0",
+    "next": "^16.0.7",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "tailwind-merge": "^3.4.0",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "gh-pages": "^6.3.0",
+    "react-router-dom": "^7.13.1",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vite-react-ssg": "^0.9.1-beta.1"
+  }
+}
