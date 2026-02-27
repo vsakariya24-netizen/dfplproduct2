@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of Durable Fastener Catalogue",
+  "description": "A dynamic product catalogue and AI-powered finder for Durable Fastener Pvt. Ltd., featuring high-fidelity product visualizations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
